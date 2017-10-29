@@ -1,0 +1,52 @@
+.messagebox{
+    -fx-background: linear-gradient(#804800, #E38000);
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+}
+
+.messagebox:header *.header-panel{
+    -fx-background-color: #aa6000;
+}
+
+
+.messagebox > *.label.content{
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+    -fx-background-color: #8a4e00;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+
+}
+
+.button:hover {
+    -fx-background-color: #aa6000;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #8a4e00;
+  -fx-text-fill: #563100;
+}
+
+.text-field {
+    -fx-border-color: #563100;
+    -fx-border-width: 1;
+    -fx-background-color: #8a4e00;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 9pt;
+    -fx-text-fill: #ffffff;
+
+}
